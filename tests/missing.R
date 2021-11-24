@@ -8,7 +8,7 @@
 #  Copyright 2003-2020 Statnet Commons
 #######################################################################
 library(latentnet)
-data(sampson)
+data(samplike, package="statnet.data")
 ym<-as.matrix(samplike)
 ym[1,5]<-NA
 yg<-as.network(ym,matrix.type="adjacency")

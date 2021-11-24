@@ -13,7 +13,7 @@ opttest({  # only run if ENABLE_MPI_TESTS flag is set, to avoid on windows where
 library(latentnet)
 
 # Also test parallel code.
-data(sampson)
+data(samplike, package="statnet.data")
 onlymcmc <- ergmm(samplike ~ euclidean(d=2, G=3)+rreceiver,tofit="mcmc",control=control.ergmm(burnin=100,interval=1,sample.size=1000,pilot.runs=0,threads=2))
 
 mcmc.diagnostics(onlymcmc)

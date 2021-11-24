@@ -10,7 +10,7 @@
 library(latentnet)
 library(statnet.common)
 
-data(sampson)
+data(samplike, package="statnet.data")
 
 monks.nmr<-ergmm(samplike~nodematch("group")+rreceiver)
 mcmc.diagnostics(monks.nmr)

@@ -9,7 +9,7 @@
 #######################################################################
 library(latentnet)
 
-data(sampson)
+data(samplike, package="statnet.data")
 
 mleonly<-ergmm(samplike~euclidean(d=2),tofit="mle")
 

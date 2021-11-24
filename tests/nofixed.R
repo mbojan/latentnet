@@ -9,7 +9,7 @@
 #######################################################################
 library(latentnet)
 
-data(sampson)
+data(samplike, package="statnet.data")
 
 monks.nf<-ergmm(samplike~euclidean(d=2)+rreceiver-1)
 mcmc.diagnostics(monks.nf)
