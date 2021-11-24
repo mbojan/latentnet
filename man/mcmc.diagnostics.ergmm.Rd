@@ -51,7 +51,7 @@ printed if "acf" is requested is for lags \code{0} and \code{interval}.
 
 \donttest{
 #
-data(sampson)
+data(samplike, package="statnet.data")
 #
 # test the mcmc.diagnostics function
 #

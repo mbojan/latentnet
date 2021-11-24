@@ -59,7 +59,7 @@ looking at the documentation of \code{\link[ergm]{ergm}}.
 
 \donttest{
 #
-data(sampson)
+data(samplike, package="statnet.data")
 #
 # test the gof.ergm function
 #

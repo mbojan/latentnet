@@ -113,15 +113,10 @@
 #' @examples
 #' 
 #' \donttest{
-#' #
-#' # Use 'data(package = "latentnet")' to list the data sets in a
-#' #
-#' data(package="latentnet")
-#' #
 #' # Using Sampson's Monk data, lets fit a 
 #' # simple latent position model
 #' #
-#' data(sampson)
+#' data(samplike, package="statnet.data")
 #' samp.fit <- ergmm(samplike ~ euclidean(d=2))
 #' #
 #' # See if we have convergence in the MCMC

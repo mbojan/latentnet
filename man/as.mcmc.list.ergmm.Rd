@@ -42,7 +42,7 @@ necessary.
 
 \donttest{
 library(coda)
-data(sampson)
+data(samplike, package="statnet.data")
 monks.fit<-ergmm(samplike~euclidean(d=2,G=3))
 monks.fit.mcmc<-as.mcmc.list(monks.fit)
 plot(monks.fit.mcmc)

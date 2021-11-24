@@ -36,7 +36,7 @@ This network shows 3 clusters.
 \examples{
 
 \donttest{
-data(tribes)
+data(tribes, package="statnet.data")
 # Only model positive ties:
 tribes.fit<-ergmm(tribes~euclidean(d=2,G=3),response="pos")
 # Edge color must be set manually, for green ties to represent alliance

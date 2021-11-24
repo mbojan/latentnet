@@ -51,7 +51,7 @@ value of \code{par} is missing, it is generated from its prior distribution.
 #
 # Fit a short MCMC run: just the MCMC.
 #
-data(sampson)
+data(samplike, package="statnet.data")
 gest <- ergmm(samplike ~ euclidean(d=2,G=3),
               control=ergmm.control(burnin=100,interval=5,sample.size=100),tofit="mcmc")
 #

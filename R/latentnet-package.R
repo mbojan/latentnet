@@ -96,7 +96,7 @@
 #' @examples
 #' 
 #' \donttest{
-#' data(davis)
+#' data(davis, package="statnet.data")
 #' # Fit a 2D 2-cluster fit and plot.
 #' davis.fit<-ergmm(davis~euclidean(d=2,G=2)+rsociality)
 #' plot(davis.fit,pie=TRUE,rand.eff="sociality")
@@ -751,7 +751,7 @@ NULL
 #' @examples
 #' 
 #' \donttest{
-#' data(tribes)
+#' data(tribes, package="statnet.data")
 #' # Only model positive ties:
 #' tribes.fit<-ergmm(tribes~euclidean(d=2,G=3),response="pos")
 #' # Edge color must be set manually, for green ties to represent alliance

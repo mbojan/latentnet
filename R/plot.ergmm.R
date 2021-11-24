@@ -118,7 +118,7 @@ plot3d.ergmm<-function(x,...){
 #' # Using Sampson's Monk data, let's fit a 
 #' # simple latent position model
 #' #
-#' data(sampson)
+#' data(samplike, package="statnet.data")
 #' #
 #' # Using Sampson's Monk data, let's fit a
 #' # latent clustering random effects model

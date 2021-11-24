@@ -78,7 +78,7 @@
 #' @examples
 #' 
 #' \donttest{
-#' data(sampson)
+#' data(samplike, package="statnet.data")
 #' ## Shorter run than default.
 #' samp.fit<-ergmm(samplike~euclidean(d=2,G=3)+rreceiver,
 #' control=ergmm.control(burnin=1000,sample.size= 2000,interval=5))

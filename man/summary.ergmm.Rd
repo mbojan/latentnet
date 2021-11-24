@@ -88,7 +88,7 @@ The following applications could not (i.e., would be off by a constant):
 \examples{
 
 \donttest{
-data(sampson)
+data(samplike, package="statnet.data")
 # Fit the model for cluster sizes 1 through 4:
 fits<-list(
            ergmm(samplike~euclidean(d=2,G=1)),

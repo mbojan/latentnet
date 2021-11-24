@@ -50,7 +50,7 @@
 #' 
 #' \donttest{
 #' #
-#' data(sampson)
+#' data(samplike, package="statnet.data")
 #' #
 #' # test the gof.ergm function
 #' #

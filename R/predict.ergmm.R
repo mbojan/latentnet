@@ -25,7 +25,7 @@
 #' @examples
 #' 
 #' \donttest{
-#' data(sampson)
+#' data(samplike, package="statnet.data")
 #' monks.fit<-ergmm(samplike~euclidean(d=2,G=3),tofit="mcmc")
 #' heatmap(predict(monks.fit),Rowv=NA,Colv=NA)
 #' }
